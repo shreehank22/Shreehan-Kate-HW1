@@ -1,0 +1,129 @@
+[0.000000] (-) TimerEvent: {}
+[0.000787] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.002800] (py_srvcli) JobQueued: {'identifier': 'py_srvcli', 'dependencies': OrderedDict()}
+[0.002931] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.029132] (py_srvcli) JobStarted: {'identifier': 'py_srvcli'}
+[0.099930] (-) TimerEvent: {}
+[0.200467] (-) TimerEvent: {}
+[0.300939] (-) TimerEvent: {}
+[0.401478] (-) TimerEvent: {}
+[0.501876] (-) TimerEvent: {}
+[0.602565] (-) TimerEvent: {}
+[0.702933] (-) TimerEvent: {}
+[0.803480] (-) TimerEvent: {}
+[0.904268] (-) TimerEvent: {}
+[1.004632] (-) TimerEvent: {}
+[1.105036] (-) TimerEvent: {}
+[1.205415] (-) TimerEvent: {}
+[1.305792] (-) TimerEvent: {}
+[1.406161] (-) TimerEvent: {}
+[1.506530] (-) TimerEvent: {}
+[1.606917] (-) TimerEvent: {}
+[1.707289] (-) TimerEvent: {}
+[1.807702] (-) TimerEvent: {}
+[1.908075] (-) TimerEvent: {}
+[2.008437] (-) TimerEvent: {}
+[2.108795] (-) TimerEvent: {}
+[2.209178] (-) TimerEvent: {}
+[2.309542] (-) TimerEvent: {}
+[2.409923] (-) TimerEvent: {}
+[2.510335] (-) TimerEvent: {}
+[2.567559] (py_srvcli) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_srvcli', 'build', '--build-base', '/home/shreehank1906/Desktop/ros2_ws/build/py_srvcli/build', 'install', '--record', '/home/shreehank1906/Desktop/ros2_ws/build/py_srvcli/install.log', '--install-scripts', '$base/lib/py_srvcli', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/shreehank1906/Desktop/ros2_ws/src/py_srvcli', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shreehank1906', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/shreehank1906', 'OLDPWD': '/home/shreehank1906', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '3195', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shreehank1906', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shreehank1906', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/home/shreehank1906/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/shreehank1906-LOQ-Essential-15ARP11:@/tmp/.ICE-unix/3151,unix/shreehank1906-LOQ-Essential-15ARP11:/tmp/.ICE-unix/3151', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e7a46a00_2080_4441_b904_c43d575c17f3', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.261', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/usr/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shreehank1906/Desktop/ros2_ws/build/py_srvcli', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/shreehank1906/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shreehank1906/Desktop/ros2_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.576498] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/shreehank1906/Desktop/ros2_ws/build/py_pubsub/build', 'install', '--record', '/home/shreehank1906/Desktop/ros2_ws/build/py_pubsub/install.log', '--install-scripts', '$base/lib/py_pubsub', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/shreehank1906/Desktop/ros2_ws/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shreehank1906', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/shreehank1906', 'OLDPWD': '/home/shreehank1906', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '3195', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shreehank1906', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shreehank1906', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/home/shreehank1906/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/shreehank1906-LOQ-Essential-15ARP11:@/tmp/.ICE-unix/3151,unix/shreehank1906-LOQ-Essential-15ARP11:/tmp/.ICE-unix/3151', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e7a46a00_2080_4441_b904_c43d575c17f3', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.261', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/usr/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shreehank1906/Desktop/ros2_ws/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/shreehank1906/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shreehank1906/Desktop/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shreehank1906/Desktop/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.610485] (-) TimerEvent: {}
+[2.710885] (-) TimerEvent: {}
+[2.811274] (-) TimerEvent: {}
+[2.911669] (-) TimerEvent: {}
+[3.012073] (-) TimerEvent: {}
+[3.112432] (-) TimerEvent: {}
+[3.212810] (-) TimerEvent: {}
+[3.231188] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[3.231905] (py_pubsub) StdoutLine: {'line': b'creating ../../build/py_pubsub/py_pubsub.egg-info\n'}
+[3.238270] (py_srvcli) StdoutLine: {'line': b'running egg_info\n'}
+[3.239052] (py_srvcli) StdoutLine: {'line': b'creating ../../build/py_srvcli/py_srvcli.egg-info\n'}
+[3.281002] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[3.281582] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[3.281945] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[3.282238] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[3.282592] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[3.282984] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[3.288492] (py_srvcli) StdoutLine: {'line': b'writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO\n'}
+[3.289087] (py_srvcli) StdoutLine: {'line': b'writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt\n'}
+[3.289448] (py_srvcli) StdoutLine: {'line': b'writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt\n'}
+[3.289829] (py_srvcli) StdoutLine: {'line': b'writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt\n'}
+[3.290176] (py_srvcli) StdoutLine: {'line': b'writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt\n'}
+[3.290447] (py_srvcli) StdoutLine: {'line': b"writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[3.312933] (-) TimerEvent: {}
+[3.384035] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[3.385480] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[3.385902] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[3.386082] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[3.386414] (py_pubsub) StdoutLine: {'line': b'creating /home/shreehank1906/Desktop/ros2_ws/build/py_pubsub/build\n'}
+[3.386587] (py_pubsub) StdoutLine: {'line': b'creating /home/shreehank1906/Desktop/ros2_ws/build/py_pubsub/build/lib\n'}
+[3.386888] (py_pubsub) StdoutLine: {'line': b'creating /home/shreehank1906/Desktop/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[3.387065] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/subscriber_member_function.py -> /home/shreehank1906/Desktop/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[3.387249] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/__init__.py -> /home/shreehank1906/Desktop/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[3.387444] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/publisher_member_function.py -> /home/shreehank1906/Desktop/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[3.387870] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[3.392675] (py_srvcli) StdoutLine: {'line': b"reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[3.394160] (py_srvcli) StdoutLine: {'line': b"writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[3.394487] (py_srvcli) StdoutLine: {'line': b'running build\n'}
+[3.394664] (py_srvcli) StdoutLine: {'line': b'running build_py\n'}
+[3.394878] (py_srvcli) StdoutLine: {'line': b'creating /home/shreehank1906/Desktop/ros2_ws/build/py_srvcli/build\n'}
+[3.395168] (py_srvcli) StdoutLine: {'line': b'creating /home/shreehank1906/Desktop/ros2_ws/build/py_srvcli/build/lib\n'}
+[3.395428] (py_srvcli) StdoutLine: {'line': b'creating /home/shreehank1906/Desktop/ros2_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[3.395578] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/service_member_function.py -> /home/shreehank1906/Desktop/ros2_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[3.395896] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/client_member_function.py -> /home/shreehank1906/Desktop/ros2_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[3.396251] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/__init__.py -> /home/shreehank1906/Desktop/ros2_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[3.396650] (py_srvcli) StdoutLine: {'line': b'running install\n'}
+[3.402013] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[3.410701] (py_srvcli) StdoutLine: {'line': b'running install_lib\n'}
+[3.413064] (-) TimerEvent: {}
+[3.453335] (py_pubsub) StdoutLine: {'line': b'creating /home/shreehank1906/Desktop/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub\n'}
+[3.453783] (py_pubsub) StdoutLine: {'line': b'copying /home/shreehank1906/Desktop/ros2_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/shreehank1906/Desktop/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub\n'}
+[3.454116] (py_pubsub) StdoutLine: {'line': b'copying /home/shreehank1906/Desktop/ros2_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/shreehank1906/Desktop/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub\n'}
+[3.454421] (py_pubsub) StdoutLine: {'line': b'copying /home/shreehank1906/Desktop/ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/shreehank1906/Desktop/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub\n'}
+[3.455556] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/shreehank1906/Desktop/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-312.pyc\n'}
+[3.456854] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/shreehank1906/Desktop/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/__init__.py to __init__.cpython-312.pyc\n'}
+[3.457371] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/shreehank1906/Desktop/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-312.pyc\n'}
+[3.458435] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[3.458902] (py_pubsub) StdoutLine: {'line': b'creating /home/shreehank1906/Desktop/ros2_ws/install/py_pubsub/share/ament_index\n'}
+[3.459269] (py_pubsub) StdoutLine: {'line': b'creating /home/shreehank1906/Desktop/ros2_ws/install/py_pubsub/share/ament_index/resource_index\n'}
+[3.459466] (py_pubsub) StdoutLine: {'line': b'creating /home/shreehank1906/Desktop/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[3.459760] (py_pubsub) StdoutLine: {'line': b'copying resource/py_pubsub -> /home/shreehank1906/Desktop/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[3.459987] (py_pubsub) StdoutLine: {'line': b'copying package.xml -> /home/shreehank1906/Desktop/ros2_ws/install/py_pubsub/share/py_pubsub\n'}
+[3.460155] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.463032] (py_srvcli) StdoutLine: {'line': b'creating /home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli\n'}
+[3.463403] (py_srvcli) StdoutLine: {'line': b'copying /home/shreehank1906/Desktop/ros2_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli\n'}
+[3.463765] (py_srvcli) StdoutLine: {'line': b'copying /home/shreehank1906/Desktop/ros2_ws/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli\n'}
+[3.464162] (py_srvcli) StdoutLine: {'line': b'copying /home/shreehank1906/Desktop/ros2_ws/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli\n'}
+[3.465284] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-312.pyc\n'}
+[3.466463] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-312.pyc\n'}
+[3.467733] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli/__init__.py to __init__.cpython-312.pyc\n'}
+[3.468220] (py_srvcli) StdoutLine: {'line': b'running install_data\n'}
+[3.468621] (py_srvcli) StdoutLine: {'line': b'creating /home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/share/ament_index\n'}
+[3.468953] (py_srvcli) StdoutLine: {'line': b'creating /home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/share/ament_index/resource_index\n'}
+[3.469181] (py_srvcli) StdoutLine: {'line': b'creating /home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/share/ament_index/resource_index/packages\n'}
+[3.469339] (py_srvcli) StdoutLine: {'line': b'copying resource/py_srvcli -> /home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/share/ament_index/resource_index/packages\n'}
+[3.469530] (py_srvcli) StdoutLine: {'line': b'copying package.xml -> /home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/share/py_srvcli\n'}
+[3.469713] (py_srvcli) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.512740] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/shreehank1906/Desktop/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info\n'}
+[3.513193] (-) TimerEvent: {}
+[3.515260] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[3.523881] (py_srvcli) StdoutLine: {'line': b'Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli-0.0.0-py3.12.egg-info\n'}
+[3.526469] (py_srvcli) StdoutLine: {'line': b'running install_scripts\n'}
+[3.613344] (-) TimerEvent: {}
+[3.713729] (-) TimerEvent: {}
+[3.814116] (-) TimerEvent: {}
+[3.854864] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/shreehank1906/Desktop/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[3.855316] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/shreehank1906/Desktop/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[3.856037] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/shreehank1906/Desktop/ros2_ws/build/py_pubsub/install.log'\n"}
+[3.867667] (py_srvcli) StdoutLine: {'line': b'Installing client script to /home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/lib/py_srvcli\n'}
+[3.868032] (py_srvcli) StdoutLine: {'line': b'Installing service script to /home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/lib/py_srvcli\n'}
+[3.868749] (py_srvcli) StdoutLine: {'line': b"writing list of installed files to '/home/shreehank1906/Desktop/ros2_ws/build/py_srvcli/install.log'\n"}
+[3.911156] (py_pubsub) CommandEnded: {'returncode': 0}
+[3.914257] (-) TimerEvent: {}
+[3.943987] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[3.946754] (py_srvcli) CommandEnded: {'returncode': 0}
+[3.958991] (py_srvcli) JobEnded: {'identifier': 'py_srvcli', 'rc': 0}
+[3.960553] (-) EventReactorShutdown: {}

@@ -1,0 +1,41 @@
+[2.540s] Invoking command in '/home/shreehank1906/Desktop/ros2_ws/src/py_srvcli': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shreehank1906/Desktop/ros2_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/shreehank1906/Desktop/ros2_ws/build/py_srvcli/build install --record /home/shreehank1906/Desktop/ros2_ws/build/py_srvcli/install.log --install-scripts $base/lib/py_srvcli --single-version-externally-managed install_data
+[3.209s] running egg_info
+[3.210s] creating ../../build/py_srvcli/py_srvcli.egg-info
+[3.260s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[3.260s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[3.260s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[3.261s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[3.261s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[3.261s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[3.364s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[3.365s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[3.365s] running build
+[3.366s] running build_py
+[3.366s] creating /home/shreehank1906/Desktop/ros2_ws/build/py_srvcli/build
+[3.366s] creating /home/shreehank1906/Desktop/ros2_ws/build/py_srvcli/build/lib
+[3.366s] creating /home/shreehank1906/Desktop/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[3.366s] copying py_srvcli/service_member_function.py -> /home/shreehank1906/Desktop/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[3.367s] copying py_srvcli/client_member_function.py -> /home/shreehank1906/Desktop/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[3.367s] copying py_srvcli/__init__.py -> /home/shreehank1906/Desktop/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[3.368s] running install
+[3.382s] running install_lib
+[3.434s] creating /home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli
+[3.434s] copying /home/shreehank1906/Desktop/ros2_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli
+[3.435s] copying /home/shreehank1906/Desktop/ros2_ws/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli
+[3.435s] copying /home/shreehank1906/Desktop/ros2_ws/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli
+[3.436s] byte-compiling /home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-312.pyc
+[3.437s] byte-compiling /home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-312.pyc
+[3.439s] byte-compiling /home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli/__init__.py to __init__.cpython-312.pyc
+[3.439s] running install_data
+[3.440s] creating /home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/share/ament_index
+[3.440s] creating /home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/share/ament_index/resource_index
+[3.440s] creating /home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[3.440s] copying resource/py_srvcli -> /home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[3.440s] copying package.xml -> /home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/share/py_srvcli
+[3.441s] running install_egg_info
+[3.495s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli-0.0.0-py3.12.egg-info
+[3.497s] running install_scripts
+[3.839s] Installing client script to /home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/lib/py_srvcli
+[3.839s] Installing service script to /home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/lib/py_srvcli
+[3.840s] writing list of installed files to '/home/shreehank1906/Desktop/ros2_ws/build/py_srvcli/install.log'
+[3.918s] Invoked command in '/home/shreehank1906/Desktop/ros2_ws/src/py_srvcli' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shreehank1906/Desktop/ros2_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shreehank1906/Desktop/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/shreehank1906/Desktop/ros2_ws/build/py_srvcli/build install --record /home/shreehank1906/Desktop/ros2_ws/build/py_srvcli/install.log --install-scripts $base/lib/py_srvcli --single-version-externally-managed install_data

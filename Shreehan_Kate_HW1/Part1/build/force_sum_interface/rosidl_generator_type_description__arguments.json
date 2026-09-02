@@ -1,0 +1,11 @@
+{
+  "package_name": "force_sum_interface",
+  "output_dir": "/home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_interface/rosidl_generator_type_description/force_sum_interface",
+  "idl_tuples": [
+    "/home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_interface/rosidl_adapter/force_sum_interface:srv/ForceSum.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

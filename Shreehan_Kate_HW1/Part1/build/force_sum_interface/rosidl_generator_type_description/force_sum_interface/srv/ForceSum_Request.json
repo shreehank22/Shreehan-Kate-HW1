@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "force_sum_interface/srv/ForceSum_Request",
+      "fields": [
+        {
+          "name": "f1",
+          "type": {
+            "type_id": 59,
+            "capacity": 3,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "f2",
+          "type": {
+            "type_id": 59,
+            "capacity": 3,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "force_sum_interface/srv/ForceSum_Request",
+      "hash_string": "RIHS01_371b62543b97b5f793cb0a03a34ce522c8ca015b31fbe56375f998b6811d6d32"
+    }
+  ]
+}

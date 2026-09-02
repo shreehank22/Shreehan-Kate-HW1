@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-512f01420dcecb45b916.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "force_sum_interface__py",
+					"jsonFile" : "directory-force_sum_interface__py-42ce1e93f0cc780a55f1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_interface/force_sum_interface__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "force_sum_interface__rs",
+					"jsonFile" : "directory-force_sum_interface__rs-a3b19f09bd94037fdc5b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_interface/force_sum_interface__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "force_sum_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_force_sum_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_force_sum_interface_egg-16669e2e45417ddf0aeb.json",
+					"name" : "ament_cmake_python_build_force_sum_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_force_sum_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_force_sum_interface-f8388a6a0486bccfdd9f.json",
+					"name" : "ament_cmake_python_copy_force_sum_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "force_sum_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-force_sum_interface-61f0ff7755adc06cea5b.json",
+					"name" : "force_sum_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "force_sum_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-force_sum_interface__cpp-61a510ea099c8cbfe9ba.json",
+					"name" : "force_sum_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "force_sum_interface__py::@50a3f88d57cca4b42fff",
+					"jsonFile" : "target-force_sum_interface__py-45e8766f96e1e3e4aa78.json",
+					"name" : "force_sum_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "force_sum_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-force_sum_interface__rosidl_generator_c-734c47f48f3d0fb28ae1.json",
+					"name" : "force_sum_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "force_sum_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-force_sum_interface__rosidl_generator_py-b01b4a70ab98c0340cae.json",
+					"name" : "force_sum_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "force_sum_interface__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-force_sum_interface__rosidl_generator_type_description-f3471d7fd25de9dc5149.json",
+					"name" : "force_sum_interface__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "force_sum_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-force_sum_interface__rosidl_typesupport_c-8ee7d21571497c95a449.json",
+					"name" : "force_sum_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "force_sum_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-force_sum_interface__rosidl_typesupport_cpp-9d29e5d16f998137a5df.json",
+					"name" : "force_sum_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "force_sum_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-force_sum_interface__rosidl_typesupport_fastrtps_c-e179718337429b4600ba.json",
+					"name" : "force_sum_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "force_sum_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-force_sum_interface__rosidl_typesupport_fastrtps_cpp-e109e0b0fe13afc4c0f5.json",
+					"name" : "force_sum_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "force_sum_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-force_sum_interface__rosidl_typesupport_introspection_c-21420f1fa17d1fd102d8.json",
+					"name" : "force_sum_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "force_sum_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-force_sum_interface__rosidl_typesupport_introspection_cpp-a466ba6a22d880316233.json",
+					"name" : "force_sum_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "force_sum_interface__rs::@c2907efd8a88ab685cf8",
+					"jsonFile" : "target-force_sum_interface__rs-c4fb13612d46ddd2ecd5.json",
+					"name" : "force_sum_interface__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "force_sum_interface_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-force_sum_interface_s__rosidl_typesupport_c-df689543e8b0eaae0641.json",
+					"name" : "force_sum_interface_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "force_sum_interface_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-force_sum_interface_s__rosidl_typesupport_fastrtps_c-2deddd2e7426baa13982.json",
+					"name" : "force_sum_interface_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "force_sum_interface_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-force_sum_interface_s__rosidl_typesupport_introspection_c-6dbafbada9b0a92e6655.json",
+					"name" : "force_sum_interface_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "force_sum_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-force_sum_interface_uninstall-8ab545b2998de87d770b.json",
+					"name" : "force_sum_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-58bcf0b8e257f88e9e46.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_interface",
+		"source" : "/home/shreehank1906/Desktop/Shreehan_Kate_HW1/src/force_sum_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

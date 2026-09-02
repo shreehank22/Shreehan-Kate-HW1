@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from force_sum_interface/srv/ForceSum.srv
+// generated code does not contain a copyright notice
+
+
+module force_sum_interface {
+  module srv {
+    typedef double double__3[3];
+    @verbatim (language="comment", text=
+      "force variables")
+    struct ForceSum_Request {
+      double__3 f1;
+
+      double__3 f2;
+    };
+    typedef double double__3[3];
+    struct ForceSum_Response {
+      double__3 f_sum;
+    };
+  };
+};

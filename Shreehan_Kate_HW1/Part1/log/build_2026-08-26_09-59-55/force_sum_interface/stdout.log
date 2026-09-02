@@ -1,0 +1,229 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found rosidl_default_runtime: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_runtime/cmake)
+-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (6.3s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_interface
+[  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  5%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[  5%] Built target ament_cmake_python_copy_force_sum_interface
+[  5%] Built target force_sum_interface__rosidl_generator_type_description
+[  8%] [34m[1mGenerating C code for ROS interfaces[0m
+[ 11%] [34m[1mGenerating C++ code for ROS interfaces[0m
+running egg_info
+creating force_sum_interface.egg-info
+[ 11%] Built target force_sum_interface__rs
+writing force_sum_interface.egg-info/PKG-INFO
+writing dependency_links to force_sum_interface.egg-info/dependency_links.txt
+writing top-level names to force_sum_interface.egg-info/top_level.txt
+writing manifest file 'force_sum_interface.egg-info/SOURCES.txt'
+reading manifest file 'force_sum_interface.egg-info/SOURCES.txt'
+writing manifest file 'force_sum_interface.egg-info/SOURCES.txt'
+[ 11%] Built target ament_cmake_python_build_force_sum_interface_egg
+[ 11%] Built target force_sum_interface__cpp
+[ 17%] [32mBuilding C object CMakeFiles/force_sum_interface__rosidl_generator_c.dir/rosidl_generator_c/force_sum_interface/srv/detail/force_sum__description.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/force_sum_interface__rosidl_generator_c.dir/rosidl_generator_c/force_sum_interface/srv/detail/force_sum__functions.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/force_sum_interface__rosidl_generator_c.dir/rosidl_generator_c/force_sum_interface/srv/detail/force_sum__type_support.c.o[0m
+[ 22%] [32m[1mLinking C shared library libforce_sum_interface__rosidl_generator_c.so[0m
+[ 22%] Built target force_sum_interface__rosidl_generator_c
+[ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 34%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 37%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 40%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/force_sum_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/force_sum_interface/srv/force_sum__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/force_sum_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/force_sum_interface/srv/force_sum__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/force_sum_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/force_sum_interface/srv/detail/force_sum__type_support.cpp.o[0m
+[ 51%] [32mBuilding C object CMakeFiles/force_sum_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/force_sum_interface/srv/detail/force_sum__type_support.c.o[0m
+[ 54%] [32m[1mLinking CXX shared library libforce_sum_interface__rosidl_typesupport_c.so[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/force_sum_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/force_sum_interface/srv/detail/dds_fastrtps/force_sum__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/force_sum_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/force_sum_interface/srv/detail/force_sum__type_support_c.cpp.o[0m
+[ 62%] [32m[1mLinking C shared library libforce_sum_interface__rosidl_typesupport_introspection_c.so[0m
+[ 62%] Built target force_sum_interface__rosidl_typesupport_c
+[ 62%] Built target force_sum_interface__rosidl_typesupport_introspection_c
+[ 65%] [32m[1mLinking CXX shared library libforce_sum_interface__rosidl_typesupport_cpp.so[0m
+[ 68%] [32m[1mLinking CXX shared library libforce_sum_interface__rosidl_typesupport_introspection_cpp.so[0m
+[ 68%] Built target force_sum_interface__rosidl_typesupport_cpp
+[ 68%] Built target force_sum_interface__rosidl_typesupport_introspection_cpp
+[ 71%] [32m[1mLinking CXX shared library libforce_sum_interface__rosidl_typesupport_fastrtps_c.so[0m
+[ 71%] Built target force_sum_interface__rosidl_typesupport_fastrtps_c
+[ 74%] [32m[1mLinking CXX shared library libforce_sum_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 74%] Built target force_sum_interface__rosidl_typesupport_fastrtps_cpp
+[ 74%] Built target force_sum_interface
+[ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 77%] Built target force_sum_interface__py
+[ 80%] [32mBuilding C object CMakeFiles/force_sum_interface__rosidl_generator_py.dir/rosidl_generator_py/force_sum_interface/srv/_force_sum_s.c.o[0m
+[ 82%] [32m[1mLinking C shared library libforce_sum_interface__rosidl_generator_py.so[0m
+[ 82%] Built target force_sum_interface__rosidl_generator_py
+[ 85%] [32mBuilding C object CMakeFiles/force_sum_interface_s__rosidl_typesupport_c.dir/rosidl_generator_py/force_sum_interface/_force_sum_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/force_sum_interface_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/force_sum_interface/_force_sum_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/force_sum_interface_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/force_sum_interface/_force_sum_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 94%] [32m[1mLinking C shared module rosidl_generator_py/force_sum_interface/force_sum_interface_s__rosidl_typesupport_c.so[0m
+[ 97%] [32m[1mLinking C shared module rosidl_generator_py/force_sum_interface/force_sum_interface_s__rosidl_typesupport_introspection_c.so[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/force_sum_interface/force_sum_interface_s__rosidl_typesupport_fastrtps_c.so[0m
+[100%] Built target force_sum_interface_s__rosidl_typesupport_c
+[100%] Built target force_sum_interface_s__rosidl_typesupport_introspection_c
+[100%] Built target force_sum_interface_s__rosidl_typesupport_fastrtps_c
+-- Install configuration: ""
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/ament_index/resource_index/rosidl_interfaces/force_sum_interface
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/srv/ForceSum.json
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/msg
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__struct.h
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__type_support.h
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__type_support.c
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__description.c
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__functions.c
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__functions.h
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/force_sum.h
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/environment/library_path.sh
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/environment/library_path.dsv
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface
+-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/msg
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv
+-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface
+-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/msg
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv
+-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__type_support.c
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__rosidl_typesupport_introspection_c.h
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface
+-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/msg
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv
+-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__traits.hpp
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__builder.hpp
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__struct.hpp
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__type_support.hpp
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/force_sum.hpp
+-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface
+-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/msg
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv
+-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/dds_fastrtps
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface
+-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv
+-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__type_support.cpp
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/environment/pythonpath.sh
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/environment/pythonpath.dsv
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface-0.0.0-py3.12.egg-info
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/force_sum_interface_s__rosidl_typesupport_fastrtps_c.so
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/force_sum_interface_s__rosidl_typesupport_introspection_c.so
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/_force_sum_interface_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/_force_sum_interface_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/force_sum_interface_s__rosidl_typesupport_c.so
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/__init__.py
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/_force_sum_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/srv
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/srv/_force_sum_s.c
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/srv/_force_sum.py
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/srv/__init__.py
+Listing '/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface'...
+Compiling '/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/__init__.py'...
+Listing '/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/srv'...
+Compiling '/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/srv/__init__.py'...
+Compiling '/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/srv/_force_sum.py'...
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/force_sum_interface_s__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/force_sum_interface_s__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/force_sum_interface_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/force_sum_interface_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/force_sum_interface_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/force_sum_interface_s__rosidl_typesupport_c.so" to ""
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_generator_py.so" to ""
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/ament_index/resource_index/rust_packages/force_sum_interface
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/rust
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/rust/build.rs
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/rust/src
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/rust/src/lib.rs
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/rust/src/srv.rs
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/rust/src/srv
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/rust/src/srv/rmw.rs
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/rust/Cargo.toml
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/srv/ForceSum.idl
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/srv/ForceSum.srv
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/ament_index/resource_index/package_run_dependencies/force_sum_interface
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/ament_index/resource_index/parent_prefix_path/force_sum_interface
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/environment/ament_prefix_path.sh
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/environment/ament_prefix_path.dsv
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/environment/path.sh
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/environment/path.dsv
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/local_setup.bash
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/local_setup.sh
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/local_setup.zsh
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/local_setup.dsv
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/package.dsv
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/ament_index/resource_index/packages/force_sum_interface
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/export_force_sum_interface__rosidl_generator_cExport.cmake
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/export_force_sum_interface__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/export_force_sum_interface__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/export_force_sum_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/force_sum_interface__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/force_sum_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/force_sum_interface__rosidl_typesupport_cExport.cmake
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/force_sum_interface__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/export_force_sum_interface__rosidl_generator_cppExport.cmake
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/export_force_sum_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/export_force_sum_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/force_sum_interface__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/force_sum_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/force_sum_interface__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/force_sum_interface__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/export_force_sum_interface__rosidl_generator_pyExport.cmake
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/export_force_sum_interface__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/rosidl_cmake_aggregate_target-extras.cmake
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/force_sum_interfaceConfig.cmake
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/force_sum_interfaceConfig-version.cmake
+-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/package.xml

@@ -1,0 +1,37 @@
+[1.362s] Invoking command in '/home/shreehank1906/Desktop/Shreehan_Kate_HW1/src/force_sum_py': AMENT_PREFIX_PATH=/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface CMAKE_PREFIX_PATH=/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib PYTHONPATH=/home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/lib/python3.12/site-packages:/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/force_sum_py build --build-base /home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_py/build install --record /home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_py/install.log --install-scripts $base/lib/force_sum_py --single-version-externally-managed install_data
+[1.757s] running egg_info
+[1.757s] creating ../../build/force_sum_py/force_sum_py.egg-info
+[1.774s] writing ../../build/force_sum_py/force_sum_py.egg-info/PKG-INFO
+[1.775s] writing dependency_links to ../../build/force_sum_py/force_sum_py.egg-info/dependency_links.txt
+[1.775s] writing entry points to ../../build/force_sum_py/force_sum_py.egg-info/entry_points.txt
+[1.775s] writing requirements to ../../build/force_sum_py/force_sum_py.egg-info/requires.txt
+[1.775s] writing top-level names to ../../build/force_sum_py/force_sum_py.egg-info/top_level.txt
+[1.775s] writing manifest file '../../build/force_sum_py/force_sum_py.egg-info/SOURCES.txt'
+[1.812s] reading manifest file '../../build/force_sum_py/force_sum_py.egg-info/SOURCES.txt'
+[1.813s] writing manifest file '../../build/force_sum_py/force_sum_py.egg-info/SOURCES.txt'
+[1.813s] running build
+[1.813s] running build_py
+[1.813s] creating /home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_py/build
+[1.814s] creating /home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_py/build/lib
+[1.814s] creating /home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_py/build/lib/force_sum_py
+[1.814s] copying force_sum_py/__init__.py -> /home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_py/build/lib/force_sum_py
+[1.814s] copying force_sum_py/server.py -> /home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_py/build/lib/force_sum_py
+[1.814s] running install
+[1.823s] running install_lib
+[1.842s] creating /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/lib/python3.12/site-packages/force_sum_py
+[1.842s] copying /home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_py/build/lib/force_sum_py/__init__.py -> /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/lib/python3.12/site-packages/force_sum_py
+[1.842s] copying /home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_py/build/lib/force_sum_py/server.py -> /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/lib/python3.12/site-packages/force_sum_py
+[1.843s] byte-compiling /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/lib/python3.12/site-packages/force_sum_py/__init__.py to __init__.cpython-312.pyc
+[1.843s] byte-compiling /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/lib/python3.12/site-packages/force_sum_py/server.py to server.cpython-312.pyc
+[1.844s] running install_data
+[1.844s] creating /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/share/ament_index
+[1.845s] creating /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/share/ament_index/resource_index
+[1.845s] creating /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/share/ament_index/resource_index/packages
+[1.845s] copying resource/force_sum_py -> /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/share/ament_index/resource_index/packages
+[1.845s] copying package.xml -> /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/share/force_sum_py
+[1.845s] running install_egg_info
+[1.867s] Copying ../../build/force_sum_py/force_sum_py.egg-info to /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/lib/python3.12/site-packages/force_sum_py-0.0.0-py3.12.egg-info
+[1.868s] running install_scripts
+[2.032s] Installing server script to /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/lib/force_sum_py
+[2.032s] writing list of installed files to '/home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_py/install.log'
+[2.105s] Invoked command in '/home/shreehank1906/Desktop/Shreehan_Kate_HW1/src/force_sum_py' returned '0': AMENT_PREFIX_PATH=/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface CMAKE_PREFIX_PATH=/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib PYTHONPATH=/home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/lib/python3.12/site-packages:/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/force_sum_py build --build-base /home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_py/build install --record /home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_py/install.log --install-scripts $base/lib/force_sum_py --single-version-externally-managed install_data

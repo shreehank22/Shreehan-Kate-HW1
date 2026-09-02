@@ -1,0 +1,22 @@
+[1.645s] Invoking command in '/home/shreehank1906/Desktop/Shreehan_Kate_HW1/src/force_sum_py': AMENT_PREFIX_PATH=/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface CMAKE_PREFIX_PATH=/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib PYTHONPATH=/home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/lib/python3.12/site-packages:/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/force_sum_py build --build-base /home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_py/build install --record /home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_py/install.log --install-scripts $base/lib/force_sum_py --single-version-externally-managed install_data
+[2.119s] running egg_info
+[2.146s] writing ../../build/force_sum_py/force_sum_py.egg-info/PKG-INFO
+[2.147s] writing dependency_links to ../../build/force_sum_py/force_sum_py.egg-info/dependency_links.txt
+[2.147s] writing entry points to ../../build/force_sum_py/force_sum_py.egg-info/entry_points.txt
+[2.148s] writing requirements to ../../build/force_sum_py/force_sum_py.egg-info/requires.txt
+[2.148s] writing top-level names to ../../build/force_sum_py/force_sum_py.egg-info/top_level.txt
+[2.206s] reading manifest file '../../build/force_sum_py/force_sum_py.egg-info/SOURCES.txt'
+[2.208s] writing manifest file '../../build/force_sum_py/force_sum_py.egg-info/SOURCES.txt'
+[2.208s] running build
+[2.209s] running build_py
+[2.209s] running install
+[2.223s] running install_lib
+[2.253s] running install_data
+[2.253s] running install_egg_info
+[2.284s] removing '/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/lib/python3.12/site-packages/force_sum_py-0.0.0-py3.12.egg-info' (and everything under it)
+[2.285s] Copying ../../build/force_sum_py/force_sum_py.egg-info to /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/lib/python3.12/site-packages/force_sum_py-0.0.0-py3.12.egg-info
+[2.287s] running install_scripts
+[2.514s] Installing client script to /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/lib/force_sum_py
+[2.515s] Installing server script to /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/lib/force_sum_py
+[2.515s] writing list of installed files to '/home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_py/install.log'
+[2.562s] Invoked command in '/home/shreehank1906/Desktop/Shreehan_Kate_HW1/src/force_sum_py' returned '0': AMENT_PREFIX_PATH=/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface CMAKE_PREFIX_PATH=/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib PYTHONPATH=/home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/lib/python3.12/site-packages:/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/force_sum_py build --build-base /home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_py/build install --record /home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_py/install.log --install-scripts $base/lib/force_sum_py --single-version-externally-managed install_data

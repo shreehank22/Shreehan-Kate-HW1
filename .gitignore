@@ -1,0 +1,19 @@
+# VS Code
+.vscode/
+
+# ROS 2 / colcon generated files
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+

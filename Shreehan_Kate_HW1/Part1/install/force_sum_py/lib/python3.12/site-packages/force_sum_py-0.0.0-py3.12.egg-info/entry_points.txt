@@ -1,0 +1,3 @@
+[console_scripts]
+client = force_sum_py.client:main
+server = force_sum_py.server:main

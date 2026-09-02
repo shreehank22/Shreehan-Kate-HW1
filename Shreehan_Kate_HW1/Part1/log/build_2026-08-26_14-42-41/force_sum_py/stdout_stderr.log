@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/force_sum_py/force_sum_py.egg-info
+writing ../../build/force_sum_py/force_sum_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/force_sum_py/force_sum_py.egg-info/dependency_links.txt
+writing entry points to ../../build/force_sum_py/force_sum_py.egg-info/entry_points.txt
+writing requirements to ../../build/force_sum_py/force_sum_py.egg-info/requires.txt
+writing top-level names to ../../build/force_sum_py/force_sum_py.egg-info/top_level.txt
+writing manifest file '../../build/force_sum_py/force_sum_py.egg-info/SOURCES.txt'
+reading manifest file '../../build/force_sum_py/force_sum_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/force_sum_py/force_sum_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_py/build
+creating /home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_py/build/lib
+creating /home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_py/build/lib/force_sum_py
+copying force_sum_py/__init__.py -> /home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_py/build/lib/force_sum_py
+copying force_sum_py/server.py -> /home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_py/build/lib/force_sum_py
+running install
+running install_lib
+creating /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/lib/python3.12/site-packages/force_sum_py
+copying /home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_py/build/lib/force_sum_py/__init__.py -> /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/lib/python3.12/site-packages/force_sum_py
+copying /home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_py/build/lib/force_sum_py/server.py -> /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/lib/python3.12/site-packages/force_sum_py
+byte-compiling /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/lib/python3.12/site-packages/force_sum_py/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/lib/python3.12/site-packages/force_sum_py/server.py to server.cpython-312.pyc
+running install_data
+creating /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/share/ament_index
+creating /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/share/ament_index/resource_index
+creating /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/share/ament_index/resource_index/packages
+copying resource/force_sum_py -> /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/share/force_sum_py
+running install_egg_info
+Copying ../../build/force_sum_py/force_sum_py.egg-info to /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/lib/python3.12/site-packages/force_sum_py-0.0.0-py3.12.egg-info
+running install_scripts
+Installing server script to /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_py/lib/force_sum_py
+writing list of installed files to '/home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_py/install.log'

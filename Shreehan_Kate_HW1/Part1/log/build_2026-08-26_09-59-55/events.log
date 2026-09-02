@@ -1,0 +1,343 @@
+[0.000000] (-) TimerEvent: {}
+[0.000337] (force_sum_interface) JobQueued: {'identifier': 'force_sum_interface', 'dependencies': OrderedDict()}
+[0.002001] (force_sum_interface) JobStarted: {'identifier': 'force_sum_interface'}
+[0.029574] (force_sum_interface) JobProgress: {'identifier': 'force_sum_interface', 'progress': 'cmake'}
+[0.031406] (force_sum_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/shreehank1906/Desktop/Shreehan_Kate_HW1/src/force_sum_interface', '-DCMAKE_INSTALL_PREFIX=/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface'], 'cwd': '/home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_interface', 'env': OrderedDict({'USER': 'shreehank1906', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/openrobots/lib:/opt/openrobots/lib:/opt/openrobots/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/shreehank1906', 'OLDPWD': '/home/shreehank1906/Desktop/Shreehan_Kate_HW1/src', 'LESS': '-R', 'CONDA_SHLVL': '0', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/shreehank1906/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '3161', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'COLORTERM': 'truecolor', '_CE_M': '', '_CONDA_ROOT': '/home/shreehank1906/miniconda3', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shreehank1906', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/openrobots/lib/pkgconfig:/opt/openrobots/lib/pkgconfig:/opt/openrobots/lib/pkgconfig:', 'USERNAME': 'shreehank1906', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/opt/openrobots/bin:/opt/openrobots/bin:/opt/openrobots/bin:/opt/ros/jazzy/bin:/home/shreehank1906/miniconda3/condabin:/home/shreehank1906/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/shreehank1906-LOQ-Essential-15ARP11:@/tmp/.ICE-unix/3129,unix/shreehank1906-LOQ-Essential-15ARP11:/tmp/.ICE-unix/3129', 'PAPERSIZE': 'letter', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7fc508e1_6160_4f3b_b1b1_a6ff219ce264', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_ADDRESS': 'en_US.UTF-8', 'DISPLAY': ':1', 'MAMBA_ROOT_PREFIX': '/home/shreehank1906/miniconda3', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.145', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'CONDA_PYTHON_EXE': '/home/shreehank1906/miniconda3/bin/python', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', '_CONDA_EXE': '/home/shreehank1906/miniconda3/bin/conda', 'MAMBA_EXE': '/home/shreehank1906/miniconda3/bin/mamba', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_interface', 'LC_ALL': 'en_US.UTF-8', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/shreehank1906/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/shreehank1906/miniconda3/bin/conda', 'LC_NUMERIC': 'en_US.UTF-8', 'PYTHONPATH': '/opt/openrobots/lib/python3.12/site-packages:/opt/openrobots/lib/python3.12/site-packages:/opt/openrobots/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/shreehank1906/Study-of-Robot-Dynamics', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'EDITOR': 'code --wait', 'CMAKE_PREFIX_PATH': '/opt/openrobots:/opt/openrobots:/opt/openrobots:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.070634] (force_sum_interface) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099413] (-) TimerEvent: {}
+[0.199885] (-) TimerEvent: {}
+[0.300377] (-) TimerEvent: {}
+[0.400796] (-) TimerEvent: {}
+[0.501234] (-) TimerEvent: {}
+[0.601632] (-) TimerEvent: {}
+[0.624098] (force_sum_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.629574] (force_sum_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.702855] (-) TimerEvent: {}
+[0.727894] (force_sum_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.802979] (-) TimerEvent: {}
+[0.805119] (force_sum_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.809909] (force_sum_interface) StdoutLine: {'line': b'-- Found rosidl_default_runtime: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_runtime/cmake)\n'}
+[0.903091] (-) TimerEvent: {}
+[1.003610] (-) TimerEvent: {}
+[1.104168] (-) TimerEvent: {}
+[1.204627] (-) TimerEvent: {}
+[1.305085] (-) TimerEvent: {}
+[1.405600] (-) TimerEvent: {}
+[1.506020] (-) TimerEvent: {}
+[1.606366] (-) TimerEvent: {}
+[1.706788] (-) TimerEvent: {}
+[1.807207] (-) TimerEvent: {}
+[1.907600] (-) TimerEvent: {}
+[2.007994] (-) TimerEvent: {}
+[2.108368] (-) TimerEvent: {}
+[2.208795] (-) TimerEvent: {}
+[2.309220] (-) TimerEvent: {}
+[2.335476] (force_sum_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.409355] (-) TimerEvent: {}
+[2.509752] (-) TimerEvent: {}
+[2.610148] (-) TimerEvent: {}
+[2.710617] (-) TimerEvent: {}
+[2.811045] (-) TimerEvent: {}
+[2.911442] (-) TimerEvent: {}
+[3.012098] (-) TimerEvent: {}
+[3.112491] (-) TimerEvent: {}
+[3.212897] (-) TimerEvent: {}
+[3.313331] (-) TimerEvent: {}
+[3.369832] (force_sum_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.413469] (-) TimerEvent: {}
+[3.513946] (-) TimerEvent: {}
+[3.614332] (-) TimerEvent: {}
+[3.714720] (-) TimerEvent: {}
+[3.815163] (-) TimerEvent: {}
+[3.915623] (-) TimerEvent: {}
+[4.015987] (-) TimerEvent: {}
+[4.116309] (-) TimerEvent: {}
+[4.216630] (-) TimerEvent: {}
+[4.317030] (-) TimerEvent: {}
+[4.417403] (-) TimerEvent: {}
+[4.517771] (-) TimerEvent: {}
+[4.618099] (-) TimerEvent: {}
+[4.718465] (-) TimerEvent: {}
+[4.736768] (force_sum_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.747022] (force_sum_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[4.818652] (-) TimerEvent: {}
+[4.919157] (-) TimerEvent: {}
+[5.019566] (-) TimerEvent: {}
+[5.082537] (force_sum_interface) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[5.119687] (-) TimerEvent: {}
+[5.220118] (-) TimerEvent: {}
+[5.320441] (-) TimerEvent: {}
+[5.420828] (-) TimerEvent: {}
+[5.521237] (-) TimerEvent: {}
+[5.621642] (-) TimerEvent: {}
+[5.722075] (-) TimerEvent: {}
+[5.822398] (-) TimerEvent: {}
+[5.922810] (-) TimerEvent: {}
+[6.023190] (-) TimerEvent: {}
+[6.123566] (-) TimerEvent: {}
+[6.143230] (force_sum_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[6.223706] (-) TimerEvent: {}
+[6.302614] (force_sum_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[6.311867] (force_sum_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[6.323809] (-) TimerEvent: {}
+[6.388964] (force_sum_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.393640] (force_sum_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.403374] (force_sum_interface) StdoutLine: {'line': b'-- Configuring done (6.3s)\n'}
+[6.423920] (-) TimerEvent: {}
+[6.506904] (force_sum_interface) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[6.524037] (-) TimerEvent: {}
+[6.538814] (force_sum_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_interface\n'}
+[6.556187] (force_sum_interface) CommandEnded: {'returncode': 0}
+[6.557556] (force_sum_interface) JobProgress: {'identifier': 'force_sum_interface', 'progress': 'build'}
+[6.559466] (force_sum_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_interface', '--', '-j16', '-l16'], 'cwd': '/home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_interface', 'env': OrderedDict({'USER': 'shreehank1906', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/openrobots/lib:/opt/openrobots/lib:/opt/openrobots/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/shreehank1906', 'OLDPWD': '/home/shreehank1906/Desktop/Shreehan_Kate_HW1/src', 'LESS': '-R', 'CONDA_SHLVL': '0', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/shreehank1906/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '3161', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'COLORTERM': 'truecolor', '_CE_M': '', '_CONDA_ROOT': '/home/shreehank1906/miniconda3', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shreehank1906', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/openrobots/lib/pkgconfig:/opt/openrobots/lib/pkgconfig:/opt/openrobots/lib/pkgconfig:', 'USERNAME': 'shreehank1906', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/opt/openrobots/bin:/opt/openrobots/bin:/opt/openrobots/bin:/opt/ros/jazzy/bin:/home/shreehank1906/miniconda3/condabin:/home/shreehank1906/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/shreehank1906-LOQ-Essential-15ARP11:@/tmp/.ICE-unix/3129,unix/shreehank1906-LOQ-Essential-15ARP11:/tmp/.ICE-unix/3129', 'PAPERSIZE': 'letter', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7fc508e1_6160_4f3b_b1b1_a6ff219ce264', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_ADDRESS': 'en_US.UTF-8', 'DISPLAY': ':1', 'MAMBA_ROOT_PREFIX': '/home/shreehank1906/miniconda3', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.145', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'CONDA_PYTHON_EXE': '/home/shreehank1906/miniconda3/bin/python', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', '_CONDA_EXE': '/home/shreehank1906/miniconda3/bin/conda', 'MAMBA_EXE': '/home/shreehank1906/miniconda3/bin/mamba', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_interface', 'LC_ALL': 'en_US.UTF-8', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/shreehank1906/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/shreehank1906/miniconda3/bin/conda', 'LC_NUMERIC': 'en_US.UTF-8', 'PYTHONPATH': '/opt/openrobots/lib/python3.12/site-packages:/opt/openrobots/lib/python3.12/site-packages:/opt/openrobots/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/shreehank1906/Study-of-Robot-Dynamics', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'EDITOR': 'code --wait', 'CMAKE_PREFIX_PATH': '/opt/openrobots:/opt/openrobots:/opt/openrobots:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[6.624174] (-) TimerEvent: {}
+[6.690288] (force_sum_interface) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[6.692931] (force_sum_interface) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[6.714692] (force_sum_interface) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_force_sum_interface\n'}
+[6.724302] (-) TimerEvent: {}
+[6.824792] (-) TimerEvent: {}
+[6.925248] (-) TimerEvent: {}
+[7.025703] (-) TimerEvent: {}
+[7.126103] (-) TimerEvent: {}
+[7.177604] (force_sum_interface) StdoutLine: {'line': b'[  5%] Built target force_sum_interface__rosidl_generator_type_description\n'}
+[7.204144] (force_sum_interface) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.226250] (-) TimerEvent: {}
+[7.228360] (force_sum_interface) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.247523] (force_sum_interface) StdoutLine: {'line': b'running egg_info\n'}
+[7.249303] (force_sum_interface) StdoutLine: {'line': b'creating force_sum_interface.egg-info\n'}
+[7.282986] (force_sum_interface) StdoutLine: {'line': b'[ 11%] Built target force_sum_interface__rs\n'}
+[7.294833] (force_sum_interface) StdoutLine: {'line': b'writing force_sum_interface.egg-info/PKG-INFO\n'}
+[7.295275] (force_sum_interface) StdoutLine: {'line': b'writing dependency_links to force_sum_interface.egg-info/dependency_links.txt\n'}
+[7.295640] (force_sum_interface) StdoutLine: {'line': b'writing top-level names to force_sum_interface.egg-info/top_level.txt\n'}
+[7.296054] (force_sum_interface) StdoutLine: {'line': b"writing manifest file 'force_sum_interface.egg-info/SOURCES.txt'\n"}
+[7.326382] (-) TimerEvent: {}
+[7.424780] (force_sum_interface) StdoutLine: {'line': b"reading manifest file 'force_sum_interface.egg-info/SOURCES.txt'\n"}
+[7.425788] (force_sum_interface) StdoutLine: {'line': b"writing manifest file 'force_sum_interface.egg-info/SOURCES.txt'\n"}
+[7.426594] (-) TimerEvent: {}
+[7.484195] (force_sum_interface) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_build_force_sum_interface_egg\n'}
+[7.526726] (-) TimerEvent: {}
+[7.627096] (-) TimerEvent: {}
+[7.727447] (-) TimerEvent: {}
+[7.793670] (force_sum_interface) StdoutLine: {'line': b'[ 11%] Built target force_sum_interface__cpp\n'}
+[7.827584] (-) TimerEvent: {}
+[7.842640] (force_sum_interface) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/force_sum_interface__rosidl_generator_c.dir/rosidl_generator_c/force_sum_interface/srv/detail/force_sum__description.c.o\x1b[0m\n'}
+[7.843104] (force_sum_interface) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/force_sum_interface__rosidl_generator_c.dir/rosidl_generator_c/force_sum_interface/srv/detail/force_sum__functions.c.o\x1b[0m\n'}
+[7.843328] (force_sum_interface) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/force_sum_interface__rosidl_generator_c.dir/rosidl_generator_c/force_sum_interface/srv/detail/force_sum__type_support.c.o\x1b[0m\n'}
+[7.927779] (-) TimerEvent: {}
+[7.969876] (force_sum_interface) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libforce_sum_interface__rosidl_generator_c.so\x1b[0m\n'}
+[8.027885] (-) TimerEvent: {}
+[8.039366] (force_sum_interface) StdoutLine: {'line': b'[ 22%] Built target force_sum_interface__rosidl_generator_c\n'}
+[8.057805] (force_sum_interface) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.058218] (force_sum_interface) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.058431] (force_sum_interface) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.058632] (force_sum_interface) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.059311] (force_sum_interface) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.059848] (force_sum_interface) StdoutLine: {'line': b'[ 40%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[8.127995] (-) TimerEvent: {}
+[8.228363] (-) TimerEvent: {}
+[8.328657] (-) TimerEvent: {}
+[8.429002] (-) TimerEvent: {}
+[8.430368] (force_sum_interface) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/force_sum_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/force_sum_interface/srv/force_sum__type_support.cpp.o\x1b[0m\n'}
+[8.433607] (force_sum_interface) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/force_sum_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/force_sum_interface/srv/force_sum__type_support.cpp.o\x1b[0m\n'}
+[8.469481] (force_sum_interface) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/force_sum_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/force_sum_interface/srv/detail/force_sum__type_support.cpp.o\x1b[0m\n'}
+[8.475646] (force_sum_interface) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/force_sum_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/force_sum_interface/srv/detail/force_sum__type_support.c.o\x1b[0m\n'}
+[8.502342] (force_sum_interface) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libforce_sum_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.514805] (force_sum_interface) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/force_sum_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/force_sum_interface/srv/detail/dds_fastrtps/force_sum__type_support.cpp.o\x1b[0m\n'}
+[8.529133] (-) TimerEvent: {}
+[8.535519] (force_sum_interface) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/force_sum_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/force_sum_interface/srv/detail/force_sum__type_support_c.cpp.o\x1b[0m\n'}
+[8.553423] (force_sum_interface) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking C shared library libforce_sum_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.564433] (force_sum_interface) StdoutLine: {'line': b'[ 62%] Built target force_sum_interface__rosidl_typesupport_c\n'}
+[8.602855] (force_sum_interface) StdoutLine: {'line': b'[ 62%] Built target force_sum_interface__rosidl_typesupport_introspection_c\n'}
+[8.629243] (-) TimerEvent: {}
+[8.729592] (-) TimerEvent: {}
+[8.829964] (-) TimerEvent: {}
+[8.905928] (force_sum_interface) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libforce_sum_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.930084] (-) TimerEvent: {}
+[8.954730] (force_sum_interface) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libforce_sum_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.006341] (force_sum_interface) StdoutLine: {'line': b'[ 68%] Built target force_sum_interface__rosidl_typesupport_cpp\n'}
+[9.030231] (-) TimerEvent: {}
+[9.055591] (force_sum_interface) StdoutLine: {'line': b'[ 68%] Built target force_sum_interface__rosidl_typesupport_introspection_cpp\n'}
+[9.080413] (force_sum_interface) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libforce_sum_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.130499] (-) TimerEvent: {}
+[9.140101] (force_sum_interface) StdoutLine: {'line': b'[ 71%] Built target force_sum_interface__rosidl_typesupport_fastrtps_c\n'}
+[9.175873] (force_sum_interface) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libforce_sum_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.230549] (-) TimerEvent: {}
+[9.262477] (force_sum_interface) StdoutLine: {'line': b'[ 74%] Built target force_sum_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[9.287495] (force_sum_interface) StdoutLine: {'line': b'[ 74%] Built target force_sum_interface\n'}
+[9.314129] (force_sum_interface) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.330667] (-) TimerEvent: {}
+[9.431062] (-) TimerEvent: {}
+[9.531275] (-) TimerEvent: {}
+[9.622883] (force_sum_interface) StdoutLine: {'line': b'[ 77%] Built target force_sum_interface__py\n'}
+[9.631395] (-) TimerEvent: {}
+[9.645552] (force_sum_interface) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/force_sum_interface__rosidl_generator_py.dir/rosidl_generator_py/force_sum_interface/srv/_force_sum_s.c.o\x1b[0m\n'}
+[9.731919] (-) TimerEvent: {}
+[9.773652] (force_sum_interface) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libforce_sum_interface__rosidl_generator_py.so\x1b[0m\n'}
+[9.819529] (force_sum_interface) StdoutLine: {'line': b'[ 82%] Built target force_sum_interface__rosidl_generator_py\n'}
+[9.832059] (-) TimerEvent: {}
+[9.841125] (force_sum_interface) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/force_sum_interface_s__rosidl_typesupport_c.dir/rosidl_generator_py/force_sum_interface/_force_sum_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.841433] (force_sum_interface) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/force_sum_interface_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/force_sum_interface/_force_sum_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.841684] (force_sum_interface) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/force_sum_interface_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/force_sum_interface/_force_sum_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[9.929445] (force_sum_interface) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/force_sum_interface/force_sum_interface_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.930204] (force_sum_interface) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/force_sum_interface/force_sum_interface_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.932143] (-) TimerEvent: {}
+[9.937556] (force_sum_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/force_sum_interface/force_sum_interface_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.961945] (force_sum_interface) StdoutLine: {'line': b'[100%] Built target force_sum_interface_s__rosidl_typesupport_c\n'}
+[9.962287] (force_sum_interface) StdoutLine: {'line': b'[100%] Built target force_sum_interface_s__rosidl_typesupport_introspection_c\n'}
+[9.973403] (force_sum_interface) StdoutLine: {'line': b'[100%] Built target force_sum_interface_s__rosidl_typesupport_fastrtps_c\n'}
+[9.986459] (force_sum_interface) CommandEnded: {'returncode': 0}
+[9.987399] (force_sum_interface) JobProgress: {'identifier': 'force_sum_interface', 'progress': 'install'}
+[9.996730] (force_sum_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_interface'], 'cwd': '/home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_interface', 'env': OrderedDict({'USER': 'shreehank1906', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/openrobots/lib:/opt/openrobots/lib:/opt/openrobots/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/shreehank1906', 'OLDPWD': '/home/shreehank1906/Desktop/Shreehan_Kate_HW1/src', 'LESS': '-R', 'CONDA_SHLVL': '0', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/shreehank1906/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '3161', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'COLORTERM': 'truecolor', '_CE_M': '', '_CONDA_ROOT': '/home/shreehank1906/miniconda3', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shreehank1906', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/openrobots/lib/pkgconfig:/opt/openrobots/lib/pkgconfig:/opt/openrobots/lib/pkgconfig:', 'USERNAME': 'shreehank1906', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/opt/openrobots/bin:/opt/openrobots/bin:/opt/openrobots/bin:/opt/ros/jazzy/bin:/home/shreehank1906/miniconda3/condabin:/home/shreehank1906/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/shreehank1906-LOQ-Essential-15ARP11:@/tmp/.ICE-unix/3129,unix/shreehank1906-LOQ-Essential-15ARP11:/tmp/.ICE-unix/3129', 'PAPERSIZE': 'letter', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7fc508e1_6160_4f3b_b1b1_a6ff219ce264', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_ADDRESS': 'en_US.UTF-8', 'DISPLAY': ':1', 'MAMBA_ROOT_PREFIX': '/home/shreehank1906/miniconda3', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.145', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'CONDA_PYTHON_EXE': '/home/shreehank1906/miniconda3/bin/python', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', '_CONDA_EXE': '/home/shreehank1906/miniconda3/bin/conda', 'MAMBA_EXE': '/home/shreehank1906/miniconda3/bin/mamba', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/shreehank1906/Desktop/Shreehan_Kate_HW1/build/force_sum_interface', 'LC_ALL': 'en_US.UTF-8', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/shreehank1906/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/shreehank1906/miniconda3/bin/conda', 'LC_NUMERIC': 'en_US.UTF-8', 'PYTHONPATH': '/opt/openrobots/lib/python3.12/site-packages:/opt/openrobots/lib/python3.12/site-packages:/opt/openrobots/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/shreehank1906/Study-of-Robot-Dynamics', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'EDITOR': 'code --wait', 'CMAKE_PREFIX_PATH': '/opt/openrobots:/opt/openrobots:/opt/openrobots:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[10.005064] (force_sum_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.005368] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/ament_index/resource_index/rosidl_interfaces/force_sum_interface\n'}
+[10.005551] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/srv/ForceSum.json\n'}
+[10.005767] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface\n'}
+[10.005992] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/msg\n'}
+[10.006104] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.006228] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv\n'}
+[10.006275] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail\n'}
+[10.006330] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__struct.h\n'}
+[10.006376] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__type_support.h\n'}
+[10.006437] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__type_support.c\n'}
+[10.006483] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__description.c\n'}
+[10.006526] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__functions.c\n'}
+[10.006580] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__functions.h\n'}
+[10.006801] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/force_sum.h\n'}
+[10.006992] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/environment/library_path.sh\n'}
+[10.007109] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/environment/library_path.dsv\n'}
+[10.007303] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_generator_c.so\n'}
+[10.007711] (force_sum_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_generator_c.so" to ""\n'}
+[10.007836] (force_sum_interface) StdoutLine: {'line': b'-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface\n'}
+[10.007892] (force_sum_interface) StdoutLine: {'line': b'-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/msg\n'}
+[10.007944] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.008017] (force_sum_interface) StdoutLine: {'line': b'-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv\n'}
+[10.008070] (force_sum_interface) StdoutLine: {'line': b'-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail\n'}
+[10.008119] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__rosidl_typesupport_fastrtps_c.h\n'}
+[10.008186] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[10.008483] (force_sum_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.008546] (force_sum_interface) StdoutLine: {'line': b'-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface\n'}
+[10.008614] (force_sum_interface) StdoutLine: {'line': b'-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/msg\n'}
+[10.008672] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.008740] (force_sum_interface) StdoutLine: {'line': b'-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv\n'}
+[10.008806] (force_sum_interface) StdoutLine: {'line': b'-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail\n'}
+[10.008864] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__type_support.c\n'}
+[10.008925] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__rosidl_typesupport_introspection_c.h\n'}
+[10.009063] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_typesupport_introspection_c.so\n'}
+[10.009416] (force_sum_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.009473] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_typesupport_c.so\n'}
+[10.009800] (force_sum_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_typesupport_c.so" to ""\n'}
+[10.009900] (force_sum_interface) StdoutLine: {'line': b'-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface\n'}
+[10.009979] (force_sum_interface) StdoutLine: {'line': b'-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/msg\n'}
+[10.010040] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[10.010091] (force_sum_interface) StdoutLine: {'line': b'-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv\n'}
+[10.010172] (force_sum_interface) StdoutLine: {'line': b'-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail\n'}
+[10.010225] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__traits.hpp\n'}
+[10.010302] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__builder.hpp\n'}
+[10.010355] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__struct.hpp\n'}
+[10.010411] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__type_support.hpp\n'}
+[10.010513] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/force_sum.hpp\n'}
+[10.010629] (force_sum_interface) StdoutLine: {'line': b'-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface\n'}
+[10.010688] (force_sum_interface) StdoutLine: {'line': b'-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/msg\n'}
+[10.010762] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.010825] (force_sum_interface) StdoutLine: {'line': b'-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv\n'}
+[10.010885] (force_sum_interface) StdoutLine: {'line': b'-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail\n'}
+[10.010955] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/dds_fastrtps\n'}
+[10.011023] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.011099] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.011574] (force_sum_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[10.011649] (force_sum_interface) StdoutLine: {'line': b'-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface\n'}
+[10.011719] (force_sum_interface) StdoutLine: {'line': b'-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv\n'}
+[10.011778] (force_sum_interface) StdoutLine: {'line': b'-- Up-to-date: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail\n'}
+[10.011837] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.011884] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/include/force_sum_interface/force_sum_interface/srv/detail/force_sum__type_support.cpp\n'}
+[10.011979] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[10.012441] (force_sum_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[10.012498] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_typesupport_cpp.so\n'}
+[10.012932] (force_sum_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[10.013001] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/environment/pythonpath.sh\n'}
+[10.013094] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/environment/pythonpath.dsv\n'}
+[10.013205] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface-0.0.0-py3.12.egg-info\n'}
+[10.013328] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[10.013452] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[10.013562] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[10.013676] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[10.013862] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface\n'}
+[10.013939] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/force_sum_interface_s__rosidl_typesupport_fastrtps_c.so\n'}
+[10.014071] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/force_sum_interface_s__rosidl_typesupport_introspection_c.so\n'}
+[10.014204] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/_force_sum_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.014332] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/_force_sum_interface_s.ep.rosidl_typesupport_c.c\n'}
+[10.014463] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/force_sum_interface_s__rosidl_typesupport_c.so\n'}
+[10.014594] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/__init__.py\n'}
+[10.014699] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/_force_sum_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.014832] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/srv\n'}
+[10.014905] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/srv/_force_sum_s.c\n'}
+[10.015039] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/srv/_force_sum.py\n'}
+[10.015178] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/srv/__init__.py\n'}
+[10.032246] (-) TimerEvent: {}
+[10.047254] (force_sum_interface) StdoutLine: {'line': b"Listing '/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface'...\n"}
+[10.047514] (force_sum_interface) StdoutLine: {'line': b"Compiling '/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/__init__.py'...\n"}
+[10.047644] (force_sum_interface) StdoutLine: {'line': b"Listing '/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/srv'...\n"}
+[10.047773] (force_sum_interface) StdoutLine: {'line': b"Compiling '/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/srv/__init__.py'...\n"}
+[10.047905] (force_sum_interface) StdoutLine: {'line': b"Compiling '/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/srv/_force_sum.py'...\n"}
+[10.052256] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/force_sum_interface_s__rosidl_typesupport_fastrtps_c.so\n'}
+[10.053077] (force_sum_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/force_sum_interface_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.053366] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/force_sum_interface_s__rosidl_typesupport_introspection_c.so\n'}
+[10.053723] (force_sum_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/force_sum_interface_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.053952] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/force_sum_interface_s__rosidl_typesupport_c.so\n'}
+[10.054307] (force_sum_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/python3.12/site-packages/force_sum_interface/force_sum_interface_s__rosidl_typesupport_c.so" to ""\n'}
+[10.054431] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_generator_py.so\n'}
+[10.054757] (force_sum_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/lib/libforce_sum_interface__rosidl_generator_py.so" to ""\n'}
+[10.054909] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/ament_index/resource_index/rust_packages/force_sum_interface\n'}
+[10.054996] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/rust\n'}
+[10.055083] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/rust/build.rs\n'}
+[10.055160] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/rust/src\n'}
+[10.055236] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/rust/src/lib.rs\n'}
+[10.055358] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/rust/src/srv.rs\n'}
+[10.055505] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/rust/src/srv\n'}
+[10.055594] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/rust/src/srv/rmw.rs\n'}
+[10.055689] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/rust/Cargo.toml\n'}
+[10.055858] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/srv/ForceSum.idl\n'}
+[10.055998] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/srv/ForceSum.srv\n'}
+[10.056171] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/ament_index/resource_index/package_run_dependencies/force_sum_interface\n'}
+[10.056370] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/ament_index/resource_index/parent_prefix_path/force_sum_interface\n'}
+[10.056487] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/environment/ament_prefix_path.sh\n'}
+[10.056615] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/environment/ament_prefix_path.dsv\n'}
+[10.056715] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/environment/path.sh\n'}
+[10.056867] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/environment/path.dsv\n'}
+[10.056980] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/local_setup.bash\n'}
+[10.057071] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/local_setup.sh\n'}
+[10.057192] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/local_setup.zsh\n'}
+[10.057313] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/local_setup.dsv\n'}
+[10.057429] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/package.dsv\n'}
+[10.057600] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/ament_index/resource_index/packages/force_sum_interface\n'}
+[10.057804] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/export_force_sum_interface__rosidl_generator_cExport.cmake\n'}
+[10.057956] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/export_force_sum_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.058090] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/export_force_sum_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[10.058199] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/export_force_sum_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[10.058329] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/force_sum_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.058455] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/force_sum_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.058585] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/force_sum_interface__rosidl_typesupport_cExport.cmake\n'}
+[10.058743] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/force_sum_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.058881] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/export_force_sum_interface__rosidl_generator_cppExport.cmake\n'}
+[10.059031] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/export_force_sum_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[10.059148] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/export_force_sum_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[10.059283] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/force_sum_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.059407] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/force_sum_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.059539] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/force_sum_interface__rosidl_typesupport_cppExport.cmake\n'}
+[10.059661] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/force_sum_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.059821] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/export_force_sum_interface__rosidl_generator_pyExport.cmake\n'}
+[10.059961] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/export_force_sum_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[10.060094] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[10.060218] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.060341] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.060463] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.060588] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.060709] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.060842] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.060965] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[10.061086] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/force_sum_interfaceConfig.cmake\n'}
+[10.061193] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/cmake/force_sum_interfaceConfig-version.cmake\n'}
+[10.061313] (force_sum_interface) StdoutLine: {'line': b'-- Installing: /home/shreehank1906/Desktop/Shreehan_Kate_HW1/install/force_sum_interface/share/force_sum_interface/package.xml\n'}
+[10.063849] (force_sum_interface) CommandEnded: {'returncode': 0}
+[10.082169] (force_sum_interface) JobEnded: {'identifier': 'force_sum_interface', 'rc': 0}
+[10.083096] (-) EventReactorShutdown: {}
